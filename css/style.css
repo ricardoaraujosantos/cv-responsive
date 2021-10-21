@@ -150,7 +150,7 @@ aside {
   }
 
   .article-text {
-    margin-bottom: 30px;
+      margin-bottom: 30px;
   }
 
   .timeline {
@@ -315,9 +315,60 @@ aside {
       border: 4px solid #284b63;
       border-radius: 8px;
   }
-  
+
   .portfolio-item figcaption {
       color: #3c6e71;
       font-weight: 800;
       text-align: center;
+  }
+
+  @media (max-width: 1024px) {
+    .soft-skills {
+      flex-wrap: wrap;
+    }
+  
+    .soft-skill {
+      margin: 4px;
+      width: calc(50% - 8px);
+    }
+  }
+
+  
+@media (max-width: 768px) {
+    main {
+        display: block;
+    }
+  
+    aside,
+    section {
+        width: 100%;
+    }
+  
+    section {
+        margin: 50px 5px 0;
+        padding: 32px 16px 0;
+    }
+  
+    .article-wrapper {
+        display: flex;
+        padding-right: 0;
+    }
+  
+    .article-title {
+        width: 100%;
+    }
+  
+    .progress,
+    .soft-skill,
+    .portfolio-item {
+        width: 100%;
+    }
+  
+    .portfolio-item figure {
+        text-align: center;
+    }
+
+    .portfolio-item figure img {
+        width: 100%;
+    }
   }
