@@ -1,5 +1,5 @@
 # cv-responsive
-## Projeto de estudo CSS com objetivo de exercitar flex box de forma responsiva | Bootcamp Impulso React Web Developer
+## Projeto de estudo CSS Flexbox | Bootcamp Impulso React Web Developer
 
 ![Irterface CV](https://github.com/ricardoaraujosantos/cv-responsive/blob/main/images/cv-foto.png)
 
